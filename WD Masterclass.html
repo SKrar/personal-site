@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+
+			<style type="text/css">
+				
+				.form-container .btn-cancel:hover, .btn:hover {
+			opacity: 1;
+		}
+
+		.drop-button {
+			background: #E85A4F;
+			color: white;
+			border: none;
+			position: fixed;
+			top: 20px;
+			left: 20px;
+			padding: 5px 10px 5px 10px;
+			opacity: 0.8;
+			cursor: pointer;
+			font-family: ;
+			border-radius: 5px;
+			transition: transform 2s;
+			width: auto;
+			height: auto;
+		}
+
+		.drop-button:hover {
+			opacity: 1;
+			transform: rotate(30deg);
+		}
+
+		.menu-popup {
+			display: none;
+			position: fixed;
+			top: 20px;
+			left: 20px;
+			background-color: #EAE7DC;
+			padding: 0 10px 0 10px;
+			border: 3px solid #E98074;
+			border-radius: 5px;
+			color: #E98074;
+			font-size: 20px;
+			height: auto;
+			width: auto;
+			transition: transform 1s ease;
+			transition: left ease 1s;
+		}
+
+		.menu-popup:hover {
+			transform: rotate(-360deg);
+			/*left: 100px;*/
+		}
+
+		.btn-cancel {
+			width: 100%;
+			background-color: #E98074;
+			border: none;
+			opacity: 0.8;
+			margin-bottom: 10px;
+			padding: 5px 0 5px 0;
+			cursor: pointer;
+			border-radius: 5px;
+			font-family: futura;
+			font-size: 15px;
+		}
+
+		.btn-cancel:hover {
+			opacity: 1;
+			color: #EAE7DC;
+		}
+			</style>
+
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126841782-1"></script>
+			<script>
+			  window.dataLayer = window.dataLayer || [];
+			  function gtag(){dataLayer.push(arguments);}
+			  gtag('js', new Date());
+
+			  gtag('config', 'UA-126841782-1');
+
+
+	function openMenu() {
+			document.getElementById("myMenu").style.display = "block";
+		}
+
+	function closeMenu() {
+		document.getElementById("myMenu").style.display = "none";
+		}
+			</script>
+
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+			
+			<link rel="stylesheet" 
+			type="text/css"
+			href="Stylesheet1.css"/>
+
+			<title>Homepage</title>
+			
+		</head>
+
+		<body class="body" id="top">
+
+			<a href="#sign-up" class="sign-up-styling" style="opacity: 0";>Sign Up</a>
+
+			<nav class="drop-button" onmouseover="openMenu()">MENU</nav>
+
+			<div class="menu-popup" id="myMenu" onmouseleave="closeMenu()">
+				<div class="menu-container">
+					<p><a href="marketing.html" class="footer">Marketing</a></p>
+					<p><a href="web-development.html" class="footer">Web Development</a></p>
+					<p><a href="programming.html" class="footer">Programming</a></p>
+					<p><a href="programming.html" class="footer">Writing</a></p>
+					<p><a href="programming.html" class="footer">Portfolio</a></p>
+					<p><a href="programming.html" class="footer">About</a></p>
+					<p><a href="programming.html" class="footer">Contact</a></p>
+				</div>
+				
+<!--				<button type="submit" class="btn-cancel" onmouseleave="closeMenu()">Close</button>
+-->
+			</div>
+			
+		<div class="nav-styling">
+
+			<nav class="nav">
+				<a href="mailto:samuelkrarup@gmail.com?Subject=Enquiry" target="_top" class="nav"><i class="fa fa-envelope"></i> Enquiry</a> | <a href="https://www.instagram.com" target="_blank" class="nav"><i class="fa fa-instagram"></i> Instagram</a> | <a href="https://twitter.com/home" target="_blank" class="nav"><i class="fa fa-twitter"></i> Twitter</a> | <a href="https://www.facebook.com" target="_blank" class="nav"><i class="fa fa-facebook"></i> Facebook</a>
+			</nav>
+
+		</div>
+
+			<hr / class="linebreak">
+
+			<h1 class="headings"><a href="WD Masterclass.headings" class="footer">Samuel Krarup</a></h1>
+<!--SUBHEADING
+			<a href="page2.html"><h2 class="headings">Web Development Portfolio</h2></a>
+-->
+
+					<div class="footer">
+
+						<nav class="headings"><a href="marketing.html" class="footer">Marketing</a> | <a href="web-development.html" class="footer">Web Development</a> | <a href="programming.html" class="footer">Programming</a></nav>
+
+					</div>
+				
+				</div>	
+
+				<br>	
+
+			<hr / class="linebreak">
+
+		<svg width="300" height="100" class="circle">
+
+			<circle id="my-circle" cx="80" cy="80" r="75" fill="lightcoral" class="circle"  />
+
+			<animate xlink:href="#my-circle" attributeName="cx" from="-70" to="2000" dur="100s" fill="freeze" repeatCount="indefinite" />
+
+			<animate xlink:href="#my-circle" attributeName="cy" from="-70" to="2000" dur="100s" fill="freeze" repeatCount="indefinite" />
+
+		</svg>
+
+		<main class="both-boxes">
+
+			<div class="paragraph">
+
+				<h4>Home</h4>
+
+				<p>This is paragraph one. This is paragraph one. This is paragraph one. This is paragraph one. This is paragraph one.</p>
+		
+				<p>This is paragraph one. This is paragraph one. This is paragraph one. This is paragraph one. This is paragraph one.</p>
+
+				<p>This is paragraph one. This is paragraph one. This is paragraph one. This is paragraph one. This is paragraph one.</p>
+
+			</div>
+
+		</main>
+
+			<br>
+
+
+			<div class="both-boxes">
+
+				<div class="text-box-left">
+
+					<div class="box-para">
+
+						<h4>Marketing</h4>
+
+						<p>This is paragraph two. This is paragraph two. This is paragraph two.</p>
+				
+						<p>This is paragraph two. This is paragraph two. This is paragraph two.</p>
+
+						<p>This is paragraph two. This is paragraph two. This is paragraph two.</p>
+                         
+						<br>
+
+						<p>This is paragraph two. This is paragraph two. This is paragraph two.</p>
+				
+						<p>This is paragraph two. This is paragraph two. This is paragraph two.</p>
+
+						<p>This is paragraph two. This is paragraph two. This is paragraph two.</p>
+
+					</div>
+
+				</div>
+
+				<div class="text-box-right">
+
+					<div class="box-para">
+
+						<h4>Web Development</h4>
+
+						<p><a href="#" class="certificates">This is paragraph three. This is paragraph three. This is paragraph three.</a></p>
+				
+						<p><a href="#" class="certificates">This is paragraph three. This is paragraph three. This is paragraph three.</a></p>
+
+						<p><a href="#" class="certificates">This is paragraph three. This is paragraph three. This is paragraph three.</a></p>
+
+						<br>
+
+						<p><a href="#" class="certificates">This is paragraph three. This is paragraph three. This is paragraph three.</a></p>
+				
+						<p><a href="#" class="certificates">This is paragraph three. This is paragraph three. This is paragraph three.</a></p>
+
+						<p><a href="#" class="certificates">This is paragraph three. This is paragraph three. This is paragraph three.</a></p>
+						
+					</div>
+
+				</div>
+
+				<div class="para-four">
+
+					<div class="box-para">
+
+						<h4>Programming</h4>
+
+						<p>This is paragraph four. This is paragraph four. This is paragraph four. This is paragraph four.</p>
+				
+						<p>This is paragraph four. This is paragraph four. This is paragraph four. This is paragraph four.</p>
+
+						<p>This is paragraph four. This is paragraph four. This is paragraph four. This is paragraph four.</p>
+
+					</div>
+
+			</div>
+
+			<br>
+<!--
+			<div class="para-sign-up">
+
+					<div class="box-para">
+
+						<div class="CTA">
+
+						<h4>Sign up for news on future projects*</h4>
+
+						</div>
+
+							<form target="_blank">
+
+								First name:<br>
+								<input type="text" name="fname" id="sign-up" required><br>
+
+								Last name:<br>
+								<input type="text" name="lname" required><br>
+
+								Email address:<br>
+								<input type="text" name="address" required><br>
+							<div class="submit-spacing">
+								<input type="submit" value="Submit" id="submit">
+							</div>
+							</form>
+
+					</div>
+			</div>
+-->
+<!--RADIO BUTTONS
+			<form>
+				<label for="one">
+					<input type="radio" name="one-two">One</input>
+				</label>
+				<label for="two">
+					<input type="radio" name="one-two">Two</input>
+				</label>
+			</form>
+-->
+<!--FOOTER FORM
+			<br>
+			<form action="page4.html">
+				First name:<br>
+				<input type="text" value="First Name"><br>
+				Last name:<br>
+				<input type="text" value="Last Name"><br>
+				Email address:<br>
+				<input type="text" value="Email address" required><br>
+				<br>
+				<input type="submit" value="Submit">
+			</form>
+-->
+<!--
+			<br>
+			
+			<h6>*Signing up means you agree to our terms and condition and privacy policy</h6>
+-->
+			<div class="top-spacing" position="relative">
+
+				<a href="#top" class="footer" class="top-button"><b>Top</b></a>
+
+			</div>
+
+			<div class="script">
+
+			<script src="Javascript.js"></script>
+
+			</div>	
+
+<!--DOUBEL BUTTON
+			<div class="form-popup" id="myForm">
+			  <form action="/action_page.php" class="form-container">
+			    <h1>Login</h1>
+
+			    <label for="email"><b>Email</b></label>
+			    <input type="text" placeholder="Enter Email" name="email" required>
+
+			    <label for="psw"><b>Password</b></label>
+			    <input type="password" placeholder="Enter Password" name="psw" required>
+
+			    <button type="submit" class="btn">Login</button>
+			    <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+			  </form>
+			</div>
+-->
+		</body>
+
+	</html>
+
+
+
+	
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+body {font-family: Futura, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+  font-family: futura;
+  border-radius: 5px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  border-radius: 5px;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: #D8C3A5;
+  border-radius: 5px;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: auto;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 30px;
+  background-color: #D8C3A5;
+}
+
+/* Style the header */
+.header {
+  padding: 10px 16px;
+  background: ;
+  color: ;
+}
+</style>
+
+
+</head>
+
+	<body>
+
+		<button class="open-button" onclick="openForm()">Project Newsletter</button>
+
+			<div class="form-popup" id="myForm">
+			  <form action="/action_page.php" class="form-container">
+			    <h3>Sign Up</h3>
+
+			    <label for="name"><b>Full Name</b></label>
+			    <input type="text" placeholder="Enter Full Name" name="name" required>
+
+			    <label for="email"><b>Email</b></label>
+			    <input type="text" placeholder="Enter Email" name="email" required>
+
+			    <button type="submit" class="btn">Login</button>
+			    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+			  </form>
+			</div>
+
+	<script>
+	function openForm() {
+	  document.getElementById("myForm").style.display = "block";
+	}
+
+	function closeForm() {
+	  document.getElementById("myForm").style.display = "none";
+	}
+
+/*
+	// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+	</script>
+</div>
+	</body>
+</html>

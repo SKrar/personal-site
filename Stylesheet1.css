@@ -1,0 +1,383 @@
+/* Stylsheet1.css */
+/* 
+
+.............STYLE GUIDE............
+
+*/
+body {
+	border-radius: 10px ;
+	background-color: #EAE7DC ;
+	margin-top: 15px ;
+	text-decoration: none ;
+}
+
+main {
+	border-radius: 5px ;
+	color: white ;
+	background-color: #D8C3A5 ;
+	padding-bottom: 10px ;
+	padding-top: 10px ;
+	float: center ;
+	text-decoration: none ;
+}
+
+input {
+	margin-bottom: 5px;
+}
+
+html {
+	--main-color: red;
+}
+
+.certificates {
+	text-decoration: none;
+	color: #8E8D8A;
+}
+
+a.certificates:hover {
+	color: #E98074;
+}
+
+.menu-popup a:link {
+	font-family: futura;
+	opacity: 0.8;
+	height: auto;
+	width: auto;
+	transition: transform 1s ease;
+}
+
+.menu-popup a:link:hover {
+	text-decoration: underline;
+	opacity: 1;
+	transform: rotate(50deg);
+}
+
+a {
+	color: #E98074;
+	opacity: 0.8;
+}
+
+var {
+	text-decoration: none;
+}
+
+.script {
+	padding-bottom: ;
+}
+
+.CTA {
+	margin-bottom: 10px;
+	margin-top: -10px;
+}
+
+.paragraph {
+	font-family: futura ; 
+	text-align: center ;
+	color: #E98074 ;
+	font-size: 20px ;
+	padding-left: 10px ;
+}
+
+.headings {
+	text-align: center ;
+	font-family: helvetica ;
+	letter-spacing: 5px ;
+	color: #E85A4F;
+}
+
+.footer {
+	text-align: center ;
+	font-family: helvetica ;
+	color: #E85A4F;
+	text-decoration: none ;
+	padding-top: none ;
+}
+
+.linebreak {
+	border: 2px solid #D8C3A5 ;
+	border-radius: 5px ;
+	width: 500px ;
+}
+
+/* Boxes */
+.both-boxes {
+	font-family: futura ;
+	font-size: auto ;
+	text-align: center ;
+	color: #8E8D8A ;
+}
+
+.text-box-left {
+    min-height: 150px ;
+	width: 49% ;
+	border-radius: 5px ;
+	background-color: #D8C3A5 ;
+	padding-top: 10px ;
+	padding-bottom: 10px ;
+	text-align: center ;
+	float: left ;
+}
+/*
+.text-box-left-2 {
+    min-height: 150px ;
+	width: 49% ;
+	border-radius: 5px ;
+	background-color: #D8C3A5 ;
+	color:  ;
+	padding-top: 10px ;
+	padding-bottom: 10px ;
+	text-align: center ;
+	float: left ;
+}
+*/
+.text-box-right {
+	min-height: 150px ;
+	width: 49% ;
+	border-radius: 5px ;
+	background-color: #D8C3A5 ;
+	padding-top: 10px ;
+	padding-bottom: 10px ;
+	float: right; ;
+}
+/*
+.text-box-right-2 {
+	min-height: 150px ;
+	width: 49% ;
+	border-radius: 5px ;
+	background-color: #D8C3A5 ;
+	color:  ;
+	padding-top: 10px ;
+	padding-bottom: 10px ;
+	float: right; ;
+}
+*/
+.box-para {
+	padding-left: 4px ;
+	padding-right: 4px ;
+}
+
+.para-four {
+	border-radius: 5px ;
+	background-color: #D8C3A5 ;
+	color: #E98074 ;
+	padding-top: 10px ;
+	padding-bottom: 10px ;
+	width: 100% ;
+	border-top: 10px ; 
+	margin-top: 18px ;
+	float: left;
+	text-align: center;
+}
+
+.para-four-2 {
+	border-radius: 5px ;
+	background-color: #D8C3A5 ;
+	color: #E98074 ;
+	padding-top: 10px ;
+	padding-bottom: 10px ;
+	width: 100% ;
+	border-top: 10px ; 
+}
+
+.final-para {
+	text-align: center ;
+    text-family: futura ;
+}
+
+.linebreak-2 {
+	border: 2px solid #EAE7DC ;
+	border-radius: 5px ;
+	width: 500px ;
+}
+
+.circle {
+	color: #EAE7DC ;
+	padding-left: 50px ;
+	animation-delay: 5s ;
+}
+
+.circle2 {
+	color: #EAE7DC ;
+	padding-left: 100px ;
+}
+
+.circle3 {
+	color: #EAE7DC ;
+	padding-left: 420px ;
+}
+
+.circle4 {
+	color: #EAE7DC ;
+	padding-left: 550px ;
+}
+
+.nav-styling, .headings a:hover {
+	color:  red;
+}
+
+.nav {
+	text-align: right ;
+	font-family: helvetica ;
+	font-size: ; 20px ; 
+	color: #E85A4F;
+	text-decoration: none ;
+}
+
+.nav-styling {
+	padding-right: 5px ;
+	float: right ;
+}
+
+#submit {
+	color: #E98074 ;
+	font-family: futura ;
+	font-size: 20px ;
+	background-color: #EAE7DC ;
+	border: none;
+	cursor: pointer;
+}
+
+#submit:hover {
+	background: lightcoral;
+    box-shadow: 0px 0px 1px #D8C3A5;
+    color : #EAE7DC ;
+}
+
+#box {
+	border-radius: 5px ;
+	border: none;
+	height: 20px ;
+	width: 190px;
+}
+
+.sign-up-styling {
+	font-family: helvetica ;
+	font-size: ; 25px ; 
+	color: #E85A4F;
+	text-decoration: none ;
+	padding-left: 
+	letter-spacing: 10px;
+}
+
+.nav-styling-thank-you {
+	padding-right: 5px ;
+}
+
+.submit-spacing {
+	padding-top: 6px ;
+}
+
+.mini-box-spacing {
+	padding-top: 10px
+}
+
+.all-mini-boxes {
+	width: 50%;
+}
+
+.top-button {
+	float: center ;
+	padding-top: 10px ;
+	height: 50px ;
+	background-color: white ;
+}
+
+/* Error to fix
+.top-spacing {
+	border-style: solid;
+	border-width: 5px;
+	border-color: green;
+}
+*/
+
+.para-sign-up {
+	border-radius: 5px ;
+	background-color: #D8C3A5 ;
+	color: #E98074 ;
+	padding-top: 10px ;
+	padding-bottom: 10px ;
+	width: 100% ;
+	border-top: 10px ; 
+	margin-top: 18px ;
+	float: left ;
+}
+
+/*
+a:hover {
+	color: lightcoral;
+	background-color: antiquewhite;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+*/
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
